@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mahlon.github.io/al-folio/sitemap.xml
+Sitemap: https://mahlon.github.io/mahlon.github.io/sitemap.xml
