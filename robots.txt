@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mahlon.github.io/mahlon.github.io/sitemap.xml
+Sitemap: https://mac230.github.io/mac230.github.io/sitemap.xml
