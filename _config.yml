@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Mahlon
-middle_name: A.
+middle_name: 
 last_name: Collins
 email: mac230@mahlon.net
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -12,8 +12,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords:  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: button.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -51,7 +50,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 400px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -73,7 +72,7 @@ x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: mac230 # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: FpdZC3kAAAAJ # your Google Scholar ID
+scholar_userid: FpdZC3kAAAAJ&view_op=list_works&sortby=pubdate # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: 0000-0001-6799-5645 # your ORCID ID
@@ -104,7 +103,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+   
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -163,12 +162,13 @@ external_sources:
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
+  News:
     defaults:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
+
+  Projects:
     output: true
     permalink: /projects/:path/
 
